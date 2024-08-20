@@ -14,6 +14,7 @@ export const showProductContainer = (products) => {
     const productClone = document.importNode(productTemplate.content, true);
 
     productClone.querySelector("#cardValue").setAttribute("id", `card${id}`);
+    console.log(image);
 
     productClone.querySelector(".category").textContent = category;
     productClone.querySelector(".productName").textContent = name;

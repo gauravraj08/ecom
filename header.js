@@ -1,3 +1,5 @@
+import log1 from "./public/images/log1.png";
+
 const headerHTML = `<section class="top_txt">
       <div class="head container">
         <div class="head_txt">
@@ -12,7 +14,7 @@ const headerHTML = `<section class="top_txt">
     <div class="container">
       <div class="nav-brand">
 
-        <img src="./images/log1.png" alt="logo" class="logo" width="40%" height="auto" />
+        <img src="${log1}" alt="logo" class="logo" width="40%" height="auto" />
 
       </div>
 
